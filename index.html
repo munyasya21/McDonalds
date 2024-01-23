@@ -5,49 +5,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Starbucks</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
+   
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <section>
       <div class="circle"></div>
       <header>
-        <a href="#"><img src="images/mc donalds.png" class="logo"></a>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">What's New</a></li>
-        <li><a href="#">Contacts</a></li>
-      </ul>
+        <a href="#"><img src="images/mc donalds.png" class="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
       </header>
       <div class="content">
         <div class="textBox">
-          <h2>It's not just a drink<br>It's a <span>Sip of Sweetness </span></h2>
-          <p>Nestled in the heart of Nairobi, our Starbucks store is a cherished refreshment local destination for  
-             enthusiasts and community members alike. With its warm and inviting atmosphere, our shop offers a welcoming 
-             space where customers can savor the rich aroma of freshly brewed coffee and other drinks while enjoying a moment of relaxation.
-              </p>
-              <a href="#">Learn More</a>
-              </div>
-              <div class="imgBox">
-                <img src="images/coffe.png" class="starbucks">
-                </div>
-            </div>
+          <h2>
+            It's not just a drink<br />It's a <span>Sip of Sweetness </span>
+          </h2>
+          <p>
+            Nestled in the heart of Nairobi, our Starbucks store is a cherished
+            refreshment local destination for enthusiasts and community members
+            alike. With its warm and inviting atmosphere, our shop offers a
+            welcoming space where customers can savor the rich aroma of freshly
+            brewed coffee and other drinks while enjoying a moment of
+            relaxation.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+          <img src="images/coffe.png" class="starbucks" />
+        </div>
+      </div>
       <ul class="thumb">
-        <li><img src="images/coffe.png" onclick="imgSlider('images/coffe.png')"></li>
-        <li><img src="images/pink-cappu.png" onclick="imgSlider('images/pink-cappu.png')"></li>
-        <li><img src="images/coke.png" onclick="imgSlider('images/coke.png')"></li>
-        <li><img src ="images/dark pink-cappu.png" onclick="imgSlider('images/dark pink-cappu.png')"></li>
-        <li><img src="images/iced drink.png" onclick="imgSlider('images/iced drink.png')"></li>
-        <li><img src="images/green-cappu.png" onclick="imgSlider('images/green-cappu.png')"></li>
-        <li><img src="images/mocktail.png" onclick="imgSlider('images/mocktail.png')"></li>
+        <li>
+          <img src="images/coffe.png" onclick="imgSlider('images/coffe.png')" />
+        </li>
+        <li>
+          <img
+            src="images/pink-cappu.png"
+            onclick="imgSlider('images/pink-cappu.png')"
+          />
+        </li>
+        <li>
+          <img src="images/coke.png" onclick="imgSlider('images/coke.png')" />
+        </li>
+        <li>
+          <img
+            src="images/dark pink-cappu.png"
+            onclick="imgSlider('images/dark pink-cappu.png')"
+          />
+        </li>
+        <li>
+          <img
+            src="images/iced drink.png"
+            onclick="imgSlider('images/iced drink.png')"
+          />
+        </li>
+        <li>
+          <img
+            src="images/green-cappu.png"
+            onclick="imgSlider('images/green-cappu.png')"
+          />
+        </li>
+        <li>
+          <img
+            src="images/mocktail.png"
+            onclick="imgSlider('images/mocktail.png')"
+          />
+        </li>
       </ul>
+      
     </section>
-  
-   <script type="text/javascript">
-     function imgSlider(anything){
-      document.querySelector('.starbucks').src = anything;
-     }
-   </script>
-   
+    
+    <section  class="shop" id="shop">
+          <div class="heading" >
+        <span>Shop Now</span>
+         <h1>Shop Drinks</h1>
+          </div>
+<div class="shop-container">
+  <div class="box">
+    <div class="box-img">
+<img src="images/coffe.png " alt="">
+    </div>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <h2>Coffee</h2>
+    <span>$12.4</span>
+    <a href="#" class="btn">Order Now</a>
+
+  </div>
+  <div class="box">
+    <div class="box-img">
+<img src="images/mocktail.png " alt="">
+    </div>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <h2>Coffee</h2>
+    <span>$12.4</span>
+    <a href="#" class="btn">Order Now</a>
+
+  </div>
+  <div class="box">
+    <div class="box-img">
+<img src="images/iced drink.png " alt="">
+    </div>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <h2>Coffee</h2>
+    <span>$12.4</span>
+    <a href="#" class="btn">Order Now</a>
+
+  </div>
+  <div class="box">
+    <div class="box-img">
+<img src="images/dark pink-cappu.png " alt="">
+    </div>
+    <div class="stars">
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star'></i>
+      <i class='bx bxs-star-half' ></i>
+    </div>
+    <h2>Coffee</h2>
+    <span>$12.4</span>
+    <a href="#" class="btn">Order Now</a>
+
+  </div>
+</div>
+    </section>
+
+    <script type="text/javascript">
+      function imgSlider(anything) {
+        document.querySelector(".starbucks").src = anything;
+      }
+    </script>
   </body>
 </html>
