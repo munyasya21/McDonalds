@@ -5,27 +5,24 @@
   font-family: "Poppins", sans-serif;
 }
 section {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  padding: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #fff;
+ padding: 50px 10%;
 }
 header {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
-  padding: 20px 100px;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #fff;
+  box-shadow: 0 4px 41px rgb(14 55 54/ 14%);
+  padding: 15px 10%;
+  transition: 0.2s;
 }
 header.logo {
-  position: relative;
+  display: flex;
   max-width: 80px;
 }
 .logo{
@@ -42,7 +39,7 @@ header ul li {
 header ul li a {
   display: inline-block;
   color: #333;
-  font-weight: 400;
+  font-weight: 600;
   margin-left: 40px;
   text-decoration: none;
 }
@@ -62,6 +59,7 @@ header ul li a {
   font-size: 4em;
   line-height: 1.4em;
   font-weight: 500;
+  padding-top: 150px;
 }
 .content .textBox h2 span{
   color: rgb(165, 119, 59);
@@ -89,7 +87,7 @@ header ul li a {
   display: flex;
   justify-content: flex-end;
   padding-right: 50px;
-  margin-top: 50px;
+  margin-top: 170px;
 }
 .content .imgBox img{
   max-width: 340px;
@@ -126,6 +124,9 @@ header ul li a {
 .heading{
   text-align: center;
   text-transform: uppercase;
+  justify-items: center;
+ padding-top: 360px;
+ 
  
 }
 .heading span{
@@ -136,10 +137,12 @@ header ul li a {
   font-size: 2rem;
 }
 .shop-container {
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 5rem;
+  width: 50px;
+  height: 50px;
  
 }
 .shop-container .box{
@@ -152,8 +155,6 @@ header ul li a {
   align-items: center;
   margin-top: 3rem;
   border-radius: 0.5rem;
+ 
 }
-.box img{
-  width: 50px;
-  height: 50px;
-}
+
