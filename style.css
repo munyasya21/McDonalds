@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 section {
  padding: 50px 10%;
@@ -201,18 +201,21 @@ header ul li a {
 .delivery-img{
   flex: 1 1 21rem;
 }
-.container img{
+.container img,
+.app-text img{
   width: 700px;
   height: 500px;
   border-radius: 20px;
 }
- .delivery-text p {
+ .delivery-text p,
+ .app-text p{
   margin: 0.5rem 0 1rem;
   text-align: justify;
   font-size: 20px;
   font-weight: 500;
 }
-.delivery-text a{
+.delivery-text a,
+.app-text a{
   display: inline-block;
   margin-top: 20px;
   padding: 8px 20px;
