@@ -8,7 +8,7 @@ section {
  padding: 50px 10%;
 }
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 100%;
@@ -127,7 +127,7 @@ header ul li a {
   text-align: center;
   text-transform: uppercase;
   justify-items: center;
- padding-top: 360px;
+ padding-top: 260px;
  
  
 }
@@ -137,10 +137,12 @@ header ul li a {
 }
 .heading h1{
   font-size: 2rem;
+  
 }
 .shop-container {
   display: flex;
   gap: 32px;
+  flex-wrap: wrap;
   
 }
 .box .box-img img{
@@ -151,9 +153,10 @@ header ul li a {
   
 }
 .shop-container .box{
+  flex: 1 1 10rem;
   justify-content: space-between;
   background: palevioletred;
-  gap: 32px;
+ padding-bottom: 30px;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -161,4 +164,43 @@ header ul li a {
   margin-top: 3rem;
   border-radius: 0.5rem;
 }
+.shop-container .box a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: whitesmoke;
+  color: black;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: 2px solid black;
 
+}
+.shop-container .box h2{
+ color: #ebdbc8;
+ font-size: 1.4rem;
+ font-weight: 500;
+ margin: 0.2rem 0 0.5rem;
+}
+.box .btn{
+  border: 2px solid #ebdbc8;
+  color: #ebdbc8;
+}
+.box .btn:hover{
+  background: #ebdbc8;
+  color: palevioletred;
+}
+.container{
+  display: flex;
+  
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.delivery-img{
+  flex: 1 1 21rem;
+}
+.container img{
+  width: 800px;
+  height: 700px;
+}
