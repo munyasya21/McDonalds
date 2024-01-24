@@ -68,7 +68,8 @@ header ul li a {
 }
 .content .textBox p{
   color: #333;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 20px;
 }
 .content .textBox a{
   display: inline-block;
@@ -127,7 +128,7 @@ header ul li a {
   text-align: center;
   text-transform: uppercase;
   justify-items: center;
- padding-top: 260px;
+ padding-top: 100px;
  
  
 }
@@ -155,7 +156,7 @@ header ul li a {
 .shop-container .box{
   flex: 1 1 10rem;
   justify-content: space-between;
-  background: palevioletred;
+  background: burlywood;
  padding-bottom: 30px;
   display: flex;
   text-align: center;
@@ -178,7 +179,7 @@ header ul li a {
 
 }
 .shop-container .box h2{
- color: #ebdbc8;
+ color: black;
  font-size: 1.4rem;
  font-weight: 500;
  margin: 0.2rem 0 0.5rem;
@@ -201,6 +202,26 @@ header ul li a {
   flex: 1 1 21rem;
 }
 .container img{
-  width: 800px;
-  height: 700px;
+  width: 700px;
+  height: 500px;
+  border-radius: 20px;
+}
+ .delivery-text p {
+  margin: 0.5rem 0 1rem;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 500;
+}
+.delivery-text a{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: whitesmoke;
+  color: black;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border: 2px solid black;
+
 }
