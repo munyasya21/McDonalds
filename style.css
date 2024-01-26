@@ -215,7 +215,8 @@ header ul li a {
   font-weight: 500;
 }
 .delivery-text a,
-.app-text a{
+.app-text a,
+.about-text a{
   display: inline-block;
   margin-top: 20px;
   padding: 8px 20px;
@@ -227,4 +228,26 @@ header ul li a {
   text-decoration: none;
   border: 2px solid black;
 
+}
+.about{
+  display: flex;
+  background: #ebdbc8;
+  grid-area: 1.5rem;
+}
+.about-text{
+ padding-left: 30px;
+}
+.about-text h2{
+  margin: 0.5rem 0 1rem;
+  text-align: justify;
+}
+.about-img img{
+  width: 700px;
+  height: 500px;
+  border-radius: 20px;
+}
+.about-text p{
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 500; 
 }
