@@ -7,6 +7,9 @@
 section {
  padding: 50px 10%;
 }
+html{
+  scroll-behavior: smooth;
+}
 header {
   position: fixed;
   top: 0;
