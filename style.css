@@ -297,16 +297,12 @@ header ul li a {
   font-size: 15px;
 }
 
-@media only screen and (min-width: 375px){
+@media screen and (max-width: 375px){
   .thumb li img{
    display: none;
   }
   .circle{
-   top: 0;
-    padding-left:190px;
-
-    background: burlywood;
-    clip-path: circle(600px at right 800px);
+display: none;
   }
   .heading{
     text-align: center;
