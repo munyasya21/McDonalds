@@ -296,3 +296,56 @@ header ul li a {
   color: black;
   font-size: 15px;
 }
+
+@media only screen and (min-width: 375px){
+  .thumb li img{
+   display: none;
+  }
+  .circle{
+   top: 0;
+    padding-left:190px;
+
+    background: burlywood;
+    clip-path: circle(600px at right 800px);
+  }
+  .heading{
+    text-align: center;
+    text-transform: uppercase;
+    justify-items: center;
+   padding-top: 100px;
+  white-space: nowrap;
+   margin-left: 300px;
+   
+   
+  }
+  .heading span{
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .heading h1{
+    font-size: 2rem;
+    
+  }
+  .shop-container {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    
+  }
+  .box .box-img img{
+    display: flex;
+     width: 600px;
+     height: 500px;
+     justify-content: space-between;
+     
+   }
+
+
+}
+@media only screen and (min-width: 320px){
+  .thumb li img{
+   display: none;
+   }
+
+}
