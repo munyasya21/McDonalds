@@ -336,23 +336,22 @@ display: none;
      justify-content: space-between;
      
    }
-   .content{
-    
-    width: 100%;
-  
-    justify-content: space-between;
-   padding-left: 80px;
-  }
+ 
   .container{
     flex-direction: column;
   }
+ 
  
   .container img{
     width: 500px;
     height: 400px;
     padding-left: 70px;
-    border-radius: 20px;
+    
 
+  }
+  .delivery h1{
+ text-align: center;
+  padding-right: 140px;
   }
   .app-text img{
    width: 180px;
@@ -360,6 +359,9 @@ display: none;
    padding-left: 70px;
    margin-left: 70px;
 
+  }
+  .delivery-text h2{
+    padding-left: 70px;
   }
    .delivery-text p{
     justify-content: left;
@@ -387,7 +389,11 @@ display: none;
     letter-spacing: 1px;
     text-decoration: none;
     border: 2px solid black;
-  }  
+    
+  } 
+  .delivery-text  .btn{
+    margin-left: 60px;
+  } 
 
 
 }
