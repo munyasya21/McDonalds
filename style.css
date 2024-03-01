@@ -314,6 +314,14 @@ display: none;
    
    
   }
+  .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+  }
   .heading span{
     font-size: 1rem;
     font-weight: 600;
@@ -360,14 +368,17 @@ display: none;
    margin-left: 70px;
 
   }
-  .delivery-text h2{
+  .delivery-text h2,
+  .app-text h2{
     padding-left: 70px;
   }
    .delivery-text p{
-    justify-content: left;
+   align-content: center;
    padding-left: 70px;
      font-size: 20px;
      font-weight: 500;
+  
+    text-align: left;
    }
    .app-text p{
     justify-content: center;
@@ -391,7 +402,8 @@ display: none;
     border: 2px solid black;
     
   } 
-  .delivery-text  .btn{
+  .delivery-text  .btn,
+  .app-text .btn{
     margin-left: 60px;
   } 
 
